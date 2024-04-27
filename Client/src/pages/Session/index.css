@@ -1,0 +1,30 @@
+.container{
+    display: inline-block;
+    width: 70%;
+    font-size: 2rem;
+}
+.container h1{
+    margin: 0;
+    font-family: "Arvo", cursive;
+    font-size: 4rem;
+    color: #DFD0B8;
+}
+
+.container h2{
+    font-family: "Arvo", cursive;
+    font-size: 2rem;
+    color: #767676;
+}
+
+.btn{
+    margin: 15px;
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ED9455;
+    border: 0;
+    color: #322C2B;
+    font-family: "Arvo", cursive;
+    font-size: large;
+    box-shadow: #b76225 2px 2px;
+}
