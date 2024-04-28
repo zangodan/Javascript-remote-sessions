@@ -3,7 +3,7 @@ import { getSessionsCode, getSessionCodeById, setSessionCode } from './database.
 import cors from 'cors';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
-import { dirname } from "path";
+import path, { dirname } from "path";
 import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
