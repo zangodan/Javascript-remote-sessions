@@ -2,7 +2,6 @@
   "name": "Moveo Home Assignment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zangodan.github.io/Moveo-Home-Assignment/",
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
     "@testing-library/jest-dom": "^5.17.0",
@@ -21,8 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "engines": {
     "node": ">=16.0.0"
