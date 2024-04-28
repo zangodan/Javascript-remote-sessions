@@ -33,8 +33,3 @@ export async function setSessionCode(sessionID, newCode){
     ,[newCode, sessionID]);
     return {"Session-Id": sessionID, "New-Code": newCode};
 }
-
-// const sessionsCode = await getSessionsCode();
-// const sessionCode1 = await getSessionCodeById(1);
-// const newSessionCode = await setSessionCode(1, 'console.log("Hello, TOM!")');
-// console.log(newSessionCode);

@@ -3,12 +3,12 @@ import { getSessionsCode, getSessionCodeById, setSessionCode } from './database.
 import cors from 'cors';
 import { createServer } from 'http';
 import { Server } from 'socket.io';
-import path from 'path';
+// import path from 'path';
 
 const app = express();
 const port = 8080;
 
-app.use(express.static(path.join(__dirname, '..Client/build')));
+// app.use(express.static(path.join(__dirname, '..Client/build')));
 app.use(cors());
 app.use(express.json());
 
