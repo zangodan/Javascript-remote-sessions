@@ -38,7 +38,8 @@ app.use((err, req, res, next) => {
 })
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../Client/public', 'index.html'));
+    console.log("serving index.html");
+    res.sendFile(path.join(__dirname, '../Client/build', 'index.html'));
 });
 
 const server = createServer(app);
