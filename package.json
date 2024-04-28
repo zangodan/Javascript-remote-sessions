@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd \"Server\" && npm install && node app.js",
-    "build": "cd \"Client\" && npm install && npm run build"
+    "build": "cd \"Client\" && npm install && npm run build",
+    "start:client": "cd \"Client\" && npm install && npm run build",
+    "start:server": "cd \"Server\" && npm install && node app.js"
   },
   "keywords": [],
   "author": "",
