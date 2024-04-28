@@ -9,7 +9,6 @@ import { fileURLToPath } from "url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 const app = express();
-const port = 8080;
 
 app.use(express.static(path.join(__dirname, '..Client/build')));
 app.use(cors());
@@ -68,6 +67,6 @@ io.on('connection', (socket) => {
     });
 });
 
-server.listen(port, () => {
-    console.log(`Listening to port ${port}`);
+server.listen(process.env.PORT, () => {
+    console.log(`Listening to port ${process.env.PORT}`);
 })
