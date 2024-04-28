@@ -3,7 +3,7 @@ import './index.css';
 import { Outlet, Link } from "react-router-dom";
 
 const Landing = () =>{
-  const [sessions, setSessions] = useState([{id: 1}, {id: 2}, {id: 3}, {id: 4}]);
+  const [sessions] = useState([{id: 1}, {id: 2}, {id: 3}, {id: 4}]);
   return(
     <>
       <h1 className='welcome-header'> JavaScript Remote Sessions </h1>

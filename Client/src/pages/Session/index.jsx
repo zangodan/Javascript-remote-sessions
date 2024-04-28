@@ -11,8 +11,8 @@ const sessionsApi = axios.create({
 });
 
 const Session = () => {
-    let [searchParams, setSearchParams] = useSearchParams();
-    const [sessionId, setSessionId] = useState(searchParams.get("id"));
+    let [searchParams] = useSearchParams();
+    const [sessionId] = useState(searchParams.get("id"));
     const [code, setCode] = useState('');
     const [refresh, setRefresh] = useState(true);
     const [canEdit, setCanEdit] = useState(false);
