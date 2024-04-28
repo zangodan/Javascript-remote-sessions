@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zangodan/Moveo-Home-Assignment/static/css/main.73e11790.css",
+    "main.js": "/zangodan/Moveo-Home-Assignment/static/js/main.5b1df3b9.js",
+    "static/js/453.30d83027.chunk.js": "/zangodan/Moveo-Home-Assignment/static/js/453.30d83027.chunk.js",
+    "index.html": "/zangodan/Moveo-Home-Assignment/index.html",
+    "main.73e11790.css.map": "/zangodan/Moveo-Home-Assignment/static/css/main.73e11790.css.map",
+    "main.5b1df3b9.js.map": "/zangodan/Moveo-Home-Assignment/static/js/main.5b1df3b9.js.map",
+    "453.30d83027.chunk.js.map": "/zangodan/Moveo-Home-Assignment/static/js/453.30d83027.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73e11790.css",
+    "static/js/main.5b1df3b9.js"
+  ]
+}
