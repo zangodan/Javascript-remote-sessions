@@ -37,6 +37,10 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something broke!')
 })
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '../Client/public', 'index.html'));
+});
+
 const server = createServer(app);
 const io = new Server(server, {
     cors: {
