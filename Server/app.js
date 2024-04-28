@@ -36,10 +36,10 @@ app.use((err, req, res, next) => {
     res.status(500).send('Something broke!')
 })
 
-app.get('*', (req, res) => {
-    console.log("serving index.html");
-    res.sendFile(path.join(__dirname, '../Client/build', 'index.html'));
-});
+// app.get('*', (req, res) => {
+//     console.log("serving index.html");
+//     res.sendFile(path.join(__dirname, '../Client/build', 'index.html'));
+// });
 
 const server = createServer(app);
 const io = new Server(server, {
